@@ -31,6 +31,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
@@ -50,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
         android:src="@android:drawable/ic_dialog_email"
-        app:layout_anchor="@id/app_bar"
+        app:layout_anchor="@+id/scrollView"
         app:layout_anchorGravity="bottom|end" />
 
 </android.support.design.widget.CoordinatorLayout>
